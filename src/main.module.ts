@@ -1,10 +1,10 @@
 import { Module } from '@nestjs/common'
 
 // Config
-import { AppConfigModule } from './config'
+import { AppConfigModule } from '@/config'
 
 // App modules
-import { AppModule } from './app'
+import { AppModule } from '@/app'
 
 @Module({
   imports: [AppConfigModule, ...AppModule],
