@@ -2,6 +2,15 @@
 
 This template should help get you starter developing with NestJS.
 
+## Installing
+
+Install project dependencies and start a local server with the following terminal commands:
+
+```bash
+yarn
+yarn start:dev
+```
+
 ## Migration Guide
 
 ### Usage
