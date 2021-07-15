@@ -2,7 +2,7 @@
 
 This template should help get you starter developing with NestJS.
 
-## Installing
+## Install
 
 Install project dependencies and start a local server with the following terminal commands:
 
