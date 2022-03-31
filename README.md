@@ -16,7 +16,7 @@ cd my-app
 #### Install dependencies
 
 ```bash
-yarn
+pnpm install
 ```
 
 ## Run
@@ -24,7 +24,7 @@ yarn
 Start a local server with the following terminal commands:
 
 ```bash
-yarn start:dev
+pnpm start:dev
 ```
 
 ## Migration Guide
@@ -34,13 +34,13 @@ yarn start:dev
 #### For run current migration state
 
 1. Check your migration queries in `src/migrations`
-2. `yarn run typeorm:run`
+2. `pnpm run typeorm:run`
 
 #### For create new migration
 
-1. `yarn typeorm:migrate <entity-migration>`
+1. `pnpm typeorm:migrate <entity-migration>`
 2. Check your migration queries in `src/migrations`
-3. `yarn run typeorm:run`
+3. `pnpm run typeorm:run`
 
 If everything went well, you have up to date entities and a `migrations` table listing applied migrations.
 
