@@ -1,13 +1,29 @@
-# @phakedev/nestjs-template
+# @phakedev/nestjs-mysql-typeorm-template
 
-This template should help get you starter developing with NestJS.
+This template should help get you started developing with NestJS.
 
-## Install
+### GitHub Template
 
-Install project dependencies and start a local server with the following terminal commands:
+[Create a repo from this template on GitHub](https://github.com/phakedev/nestjs-mysql-typeorm-template/generate)
+
+### Clone to local
+
+```bash
+npx degit phakedev/nestjs-mysql-typeorm-template my-app
+cd my-app
+```
+
+#### Install dependencies
 
 ```bash
 yarn
+```
+
+## Run
+
+Start a local server with the following terminal commands:
+
+```bash
 yarn start:dev
 ```
 
